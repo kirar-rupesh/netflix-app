@@ -3,7 +3,7 @@ import logo from "../logo.png";
 import "./Home.scss";
 import "../App.scss";
 import { Link } from 'react-router-dom';
-import {ImSearch} from 'react-icons/im'
+import {ImSearch} from 'react-icons/im';
 
 
 const Header = () => {
@@ -14,10 +14,10 @@ const Header = () => {
         <img src={logo} alt="logo" />
 
         <div>
-            <Link to="/tvshows" > TV Shows</Link>
-            <Link to="/movies" > Movies</Link>
-            <Link to="/recent" > Recently Added</Link>
-            <Link to="/mylist" > My List</Link>
+            <Link to="/tvshows" >TV Shows</Link> 
+            <Link to="/movies" >Movies</Link>
+            <Link to="/recent" >Recently Added</Link>
+            <Link to="/mylist" >My List</Link>
         </div>
 
         <ImSearch/>

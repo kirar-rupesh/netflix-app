@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 
 * {
     padding: 0%;
     margin: 0%;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 a{
-    color: white;
+    
     text-decoration: none;
 }
 
@@ -31,9 +32,10 @@ $bg: rgb(16, 16, 16);
         width: 100%;
         margin-left: 4vmax;
     }
-
     > a{
-        margin: 1vmax;
+        margin: 5vmax;
+        font-size: 2rem;
+        font-weight: 200;
     }
 
     >svg{
@@ -41,6 +43,10 @@ $bg: rgb(16, 16, 16);
         font-size: 1.5rem;
         cursor: pointer;
 
+        &:hover{
+            color: rgb(175, 168, 168);
+        }
     }
 }
+
 
