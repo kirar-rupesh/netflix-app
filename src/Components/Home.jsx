@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+
 import "./Home.scss"
 import axios from "axios";
 
@@ -33,6 +34,7 @@ const Row =({ title, arr = [{
 
 const Home = () => {
 
+
   useEffect( () => {
 
     const fetchData = async() =>{
@@ -42,6 +44,7 @@ const Home = () => {
     fetchData()
     
   }, [])
+
 
 
 
