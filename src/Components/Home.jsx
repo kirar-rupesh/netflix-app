@@ -3,7 +3,7 @@ import "./Home.scss"
 import axios from "axios";
 
 const apiKey = "68fee47aa0d0b0f33fe5109b2ed736b7";
-const URL = "https://api.themoviedb.org/3";
+const url = "https://api.themoviedb.org/3";
 
 const Card = ({img}) => (
    <img className='card' src={img} alt="cover" />
